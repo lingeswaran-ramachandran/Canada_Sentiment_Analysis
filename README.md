@@ -12,7 +12,7 @@
 
 # Campaign_Customer_Segmentation
 
-Description : 
+Description : Trained to categorize unseen articles into 5 categories namely Sport, Tech, Business, Entertainment and Politics
 
 # The best accuracy
 ![accuracy](https://user-images.githubusercontent.com/107612407/175361608-c4d77808-6205-4498-ae94-104e2412a91e.JPG)
@@ -30,6 +30,7 @@ Description :
 ![acc_vs_val_loss](https://user-images.githubusercontent.com/107612407/175362045-8132e1d3-298c-43a2-9507-802558bdcd2a.JPG)
 ![loss_vs_val_loss](https://user-images.githubusercontent.com/107612407/175362108-59da2d5e-cdb8-4799-bcf1-0a2943c6dfc8.JPG)
 ![model](https://user-images.githubusercontent.com/107612407/175362128-b30f4d83-3816-4ba3-a3b4-77f7847b6217.png)
+
 Data can be obtained from
-#
+# Cite of source
 # https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
