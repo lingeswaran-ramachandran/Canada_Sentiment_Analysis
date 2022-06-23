@@ -46,7 +46,7 @@ df.head(10) # to visualise first 10 rows
 df.tail(10) # to visualise last 10 rows
 df.info()
 
-df['category'].unique()
+df['category'].unique() 
 df['category'][5]
 df['text'][5]
 
@@ -93,7 +93,7 @@ padded_text = pad_sequences(train_sequences,maxlen=max_len,padding='post',trunca
 
 
 #           4) One Hot Encoding for the target
-
+# to convert characters to integer
 ohe = OneHotEncoder(sparse=False)
 category = ohe.fit_transform(np.expand_dims(category,axis=-1))
 # Need to save ohe model
@@ -107,8 +107,8 @@ X_train,X_test,y_train,y_test = train_test_split(padded_text,
                                                  test_size=0.3,
                                                  random_state=123)
 
-X_train = np.expand_dims(X_train,axis=-1)
-X_test = np.expand_dims(X_test,axis=-1)
+X_train = np.expand_dims(X_train,axis=-1) # to expand dimension
+X_test = np.expand_dims(X_test,axis=-1) # to expand dimension
 #%% Model development
 # Use LSTM layers, dropout, dense, input
 # for bidirectional
@@ -178,3 +178,12 @@ with open(TOKENIZER_PATH,'w') as file:
 ONE_PATH = os.path.join(os.getcwd(),'one_path.pkl')
 with open(ONE_PATH,'wb') as file:
     pickle.dump(ohe,file)
+    
+#%% Discussion
+# Model achieved around 96% accuracy during training
+# F1-score reportrs 80% respectively
+# However the models 
+# Earlystopping can be introduced in future to prevent overfitting
+# Increase dropout rate to control overfitting 
+# Trying with different DL architecture for example BERT model,transformer
+# model, GPT3 model may help to imporove the model
