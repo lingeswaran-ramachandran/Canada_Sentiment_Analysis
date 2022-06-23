@@ -23,10 +23,13 @@ Description :
 ![tensorboard_epoch_loss](https://user-images.githubusercontent.com/107612407/175362191-624353cb-05e9-432c-976d-cebd25fc952d.JPG)
 
 ## Github link URL
-[![click_me]('https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset')
+[![click_me]('[https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset](https://github.com/lingeswaran-ramachandran/Canada_Sentiment_Analysis.git)')
+
 
 # Add images
 ![acc_vs_val_loss](https://user-images.githubusercontent.com/107612407/175362045-8132e1d3-298c-43a2-9507-802558bdcd2a.JPG)
 ![loss_vs_val_loss](https://user-images.githubusercontent.com/107612407/175362108-59da2d5e-cdb8-4799-bcf1-0a2943c6dfc8.JPG)
 ![model](https://user-images.githubusercontent.com/107612407/175362128-b30f4d83-3816-4ba3-a3b4-77f7847b6217.png)
-
+Data can be obtained from
+#
+# https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
