@@ -145,7 +145,7 @@ model.compile(optimizer='adam',loss='categorical_crossentropy',metrics='acc')
 
 # callbacks 
 hist = model.fit(X_train,y_train,
-                 epochs=3,
+                 epochs=100,
                  batch_size=128,
                  validation_data=(X_test,y_test),
                  callbacks=[tensorboard_callback])
